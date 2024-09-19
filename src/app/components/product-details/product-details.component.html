@@ -1,0 +1,24 @@
+<mat-card class="shadow">
+    <img  class="h-50" style="width:30%; margin: 15px 20%;"
+mat-card-image [src] = "product.image"  alt="">
+    <!-- {{product | json}} -->
+    <div class="p-0">
+        <!-- <h1>Product Name</h1> -->
+         <h1 style="margin-left: 20%; margin-top:0%;">{{product.name}}</h1>
+        <!-- <h2>Product Brand</h2> -->
+         <h2 style="margin: 25px 20% 16px;">{{product.brand}}</h2>
+        <div class="flex gap-2" style="width: 30%; margin: 15px 20%;">
+            <!-- <span>Rs. 1000 </span> -->
+             <span>Rs. {{product.currentPrice}}</span>
+            <!-- <span><s>Rs. 2000</s></span> -->
+             <span><s>Rs. {{product.standardPrice}}</s></span>
+            <!-- <span>(50%) OFF </span> -->
+             <span>({{product.discountedPrice}}%) OFF </span>
+
+        </div>
+        <div class="flex justify-center">
+            <button mat-raised-button color = "accent" [routerLink] ="'/edit-product/'+product.id">Edit</button>
+            
+        </div>
+    </div>
+</mat-card>

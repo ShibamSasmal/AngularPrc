@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "brand": "Here &Now",
+      "image": "https://media.istockphoto.com/id/1320367916/photo/man-wearing-black-blank-t-shirt-and-a-black-baseball-cap-with-space-for-your-logo-or-design.jpg?s=612x612&w=0&k=20&c=VDC-wDCCWZlkkCdprMJMbQ1MnLxNcLm3UnvtjxYXvHk=",
+      "currentPrice": "1000",
+      "standardPrice": "2000",
+      "discountedPrice": "50",
+      "name": "Men Pure Cooton TT-Shirt"
+    },
+    {
+      "name": "Men Pure Coton White Shirt",
+      "brand": "PeterEngland",
+      "image": "https://media.istockphoto.com/id/540863016/photo/ready-to-go.jpg?s=612x612&w=0&k=20&c=3RfAaGJn95gZmwjdDQSoAtWcLrejC1x1zySr1OlqsTs=",
+      "currentPrice": "1000",
+      "standardPrice": "2000",
+      "discountedPrice": "50",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "brand": "Lingo",
+      "image": "https://media.istockphoto.com/id/1310539882/photo/surprised-women-gesturing-with-arms-having-wide-open-eyes-mouth-isolated-on-blue-background.jpg?s=612x612&w=0&k=20&c=w73ccELgy5__Ab84aHYr7hlJdJq172b0r-VFT0_oFl4=",
+      "currentPrice": "1000",
+      "standardPrice": "2000",
+      "discountedPrice": "50",
+      "name": "Women Pure Cooton T-Shirt"
+    },
+    {
+      "id": "4",
+      "brand": "ZARA",
+      "image": "https://media.istockphoto.com/id/1201024669/photo/handsome-man-in-casual-clothing.jpg?s=612x612&w=0&k=20&c=TexR7OTm-QRZCtkDecnSVgihtLMbG9WynadACrEiMf0=",
+      "currentPrice": "2500",
+      "standardPrice": "5000",
+      "discountedPrice": "50",
+      "name": "Men Pure Cooton Shirt"
+    },
+    {
+      "id": "5",
+      "brand": "H&M",
+      "image": "https://media.istockphoto.com/id/959264892/photo/portrait-of-tattooed-young-man.jpg?s=612x612&w=0&k=20&c=l476esTRodQlGx6Towp1CPVcB2HZ8mlR8bVdFsv5oNw=",
+      "currentPrice": "500",
+      "standardPrice": "1000",
+      "discountedPrice": "50",
+      "name": "Men T-Shirt"
+    },
+    {
+      "id": "566c",
+      "name": "Premium Watch",
+      "brand": "sonata",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+      "currentPrice": "2000",
+      "standardPrice": "4000",
+      "discountedPrice": "50"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<mat-card class="shadow" (click) = "view()" >
+    <img  class="h-auto max-w-lg"
+    mat-card-image [src] = "product.image"  alt=" Shirt">
+    <!-- {{product | json}} -->
+    <div class="p-4">
+        <!-- <h1>Product Name</h1> -->
+         <h1>{{product.name}}</h1>
+        <!-- <h2>Product Brand</h2> -->
+         <h2>{{product.brand | uppercase}}</h2>
+        <div class="flex gap-2">
+            <!-- <span>Rs. 1000 </span> -->
+             <span>{{product.currentPrice | curr}}</span>
+            <!-- <span><s>Rs. 2000</s></span> -->
+             <span><s>{{product.standardPrice | curr}}</s></span>
+            <!-- <span>(50%) OFF </span> -->
+             <span>({{product.discountedPrice}}%) OFF </span>
+
+        </div>
+    </div>
+</mat-card>
